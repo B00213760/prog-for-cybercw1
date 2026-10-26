@@ -1,41 +1,54 @@
-# prog-for-cybercw1
-Coursework 1 - GitHub Portfolio
+# Task 1: Security Tool
+
 ## Student Information
-Name: Yvonne Owens
-Campus: UWS Lanarkshire
-Banner ID: B00213760
+
+Name: Yvonne Owens  
+Campus: UWS Lanarkshire  
+Banner ID: B00213760  
 Module: COMP08101 - Programming for Cyber Security
 
-## Coursework Overview
+## Program Description
 
-This repository contains my Programming for Cyber Security Coursework 1 portfolio.
+This python program is a basic security tool designed for a small organisation.
 
-The portfolio consists of five Python programming exercises covering security tools, authentication, event logging, IP address validation, dictionaries and reusable modules.
+The user must authenticate before accessing the security menu.
 
+The program provides the following functions:
 
-## Coursework Tasks
+1. Security Event Counter
+2. Brute-Force Simulation
+3. Login Authentication
+4. Exit
 
-### Task 1: Security Tool
-Branch: security-tool
+## Program Features
 
-A python security tool featuring authentication, a security event counter, brute force simulation and login authentication.
+### Security Event Counter
+Asks the user to enter a password 10 times and counts the number of correct and incorrect attempts. It calculates the percentage of incorrect passwords and displays an alert if this exceeds 50%.
 
-### Task 2: Security Event Logger
-Branch: security-event-logger
+### Brute-Force Simulation
+Allows the user to guess a predefined password within a maximum number of attempts. The simulation stops when the correct password is entered or the maximum attempts are reached.
 
-A python program that records successful and failed login attempts.
+### Login Authentication
+Checks a username and password against stored credentials. The user is allowed three failed login attempts before the account is reported as frozen for 24 hours.
 
-### Task 3: IP Address Validator
-Branch: ip-address-validator
+### Exit
+Displays a thank-you message when the user chooses to exit the security tool.
 
-A python function that checks whether an IP address meets basic IPv4 format requirements.
+## How to Run
 
-### Task 4: Security Incident Manager
-Branch: security-incident-manager
+1. Open the python program in VS Code.
+2. Run the program using python.
+3. Enter the required login credentials.
+4. Select an option from the security menu.
+5. Follow the instructions displayed on screen.
+6. Select Exit to close the program.
 
-A python program that uses dictionaries to store, update and manage security incident information.
+## Testing
 
-### Task 5: Cyber Security Utilities
-Branch: cyber-security-utilities
+The program will be tested using valid and invalid inputs.
 
-A collection of reusable python functions for password validation, IP address validation and random password generation.
+Screenshots demonstrating the program's execution will be included in this branch.
+
+## GitHub Branch
+
+security-tool
