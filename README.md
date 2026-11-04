@@ -1,9 +1,9 @@
 # prog-for-cybercw1
 Coursework 1 - GitHub Portfolio
 ## Student Information
-Name: Yvonne Owens
-Campus: UWS Lanarkshire
-Banner ID: B00213760
+Name: Yvonne Owens\
+Campus: UWS Lanarkshire\
+Banner ID: B00213760\
 Module: COMP08101 - Programming for Cyber Security
 
 ## Coursework Overview
