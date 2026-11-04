@@ -1,41 +1,46 @@
-# prog-for-cybercw1
-Coursework 1 - GitHub Portfolio
+# Task 4 - Security Incident Manager
+
+Coursework 1 - Programming for Cyber Security
+
 ## Student Information
-Name: Yvonne Owens
-Campus: UWS Lanarkshire
-Banner ID: B00213760
+
+Name: Yvonne Owens\
+Campus: UWS Lanarkshire\
+Banner ID: B00213760\
 Module: COMP08101 - Programming for Cyber Security
 
 ## Coursework Overview
 
-This repository contains my Programming for Cyber Security Coursework 1 portfolio.
+This program is Task 4 of my Programming for Cyber Security Coursework 1.
 
-The portfolio consists of five Python programming exercises covering security tools, authentication, event logging, IP address validation, dictionaries and reusable modules.
+The Security Incident Manager uses a Python dictionary to store and manage information about a security incident.
 
+The program demonstrates how to access, add, update and remove information from a dictionary.
 
-## Coursework Tasks
+## Program Features
 
-### Task 1: Security Tool
-Branch: security-tool
+- Creates a dictionary containing a username, IP address, event type and risk level.
+- Displays the username and IP address.
+- Adds a new status field to the dictionary.
+- Updates the risk level from High to Medium.
+- Removes the event type field.
+- Displays all remaining keys and values.
+- Counts the total number of entries in the dictionary.
 
-A python security tool featuring authentication, a security event counter, brute force simulation and login authentication.
+## How to Run the Program
 
-### Task 2: Security Event Logger
-Branch: security-event-logger
+1. Open the project in Visual Studio Code.
+2. Open the terminal.
+3. Make sure Python 3 is installed.
+4. Run the following command: `python3 security-incident-manager.py`
+5. The program will display the security incident information and the updated dictionary.
 
-A python program that records successful and failed login attempts.
+## Testing
 
-### Task 3: IP Address Validator
-Branch: ip-address-validator
+The program was tested to confirm that the dictionary fields could be accessed, added, updated and removed correctly.
 
-A python function that checks whether an IP address meets basic IPv4 format requirements.
+The final output confirms that four entries remain in the dictionary.
 
-### Task 4: Security Incident Manager
-Branch: security-incident-manager
+## GitHub Branch
 
-A python program that uses dictionaries to store, update and manage security incident information.
-
-### Task 5: Cyber Security Utilities
-Branch: cyber-security-utilities
-
-A collection of reusable python functions for password validation, IP address validation and random password generation.
+`security-incident-manager`
