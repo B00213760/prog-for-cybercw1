@@ -6,7 +6,7 @@ Coursework 1 - Programming for Cyber Security
 Name: Yvonne Owens\
 Campus: UWS Lanarkshire\
 Banner ID: B00213760\
-Module: COMP08101 - Programming for Cyber Security\
+Module: COMP08101 - Programming for Cyber Security
 
 ## Coursework Overview
 
