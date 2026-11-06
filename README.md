@@ -23,7 +23,7 @@ Run the following command in the terminal:
 python3 main.py
 
 ## Testing
-The program was tested using strong and weak passwords, valid and invalid IP addresses, and random password generation.
+The program was tested using strong and weak passwords, valid and invalid IP addresses and random password generation.
 
 ## GitHub Branch
 cyber-security-utilities
